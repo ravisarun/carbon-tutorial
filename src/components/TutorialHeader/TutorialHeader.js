@@ -17,11 +17,14 @@ const TutorialHeader = () => (
   <Header aria-label="Carbon Tutorial">
     <SkipToContent />
     <HeaderName element={Link} to="/" prefix="IBM">
-      Carbon Tutorial
+      AOCC
     </HeaderName>
     <HeaderNavigation aria-label="Carbon Tutorial">
       <HeaderMenuItem element={Link} to="/repos">
         Repositories
+      </HeaderMenuItem>
+      <HeaderMenuItem element={Link} to="/manageAutomation">
+        Manage Automation
       </HeaderMenuItem>
     </HeaderNavigation>
     <HeaderGlobalBar>
